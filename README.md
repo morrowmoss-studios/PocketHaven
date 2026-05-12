@@ -1,5 +1,5 @@
-# PocketHaven by MorrowMoss Studios
-© 2026 MorrowMoss Studios. All rights reserved.
+# PocketHaven by MorrowMoss Studios LTD
+© 2026 MorrowMoss Studios LTD. All rights reserved.
 PocketHaven is a fae-touched home decorating game where every object tells a story and every room breathes with magic. 
 Choose your woodland creature, follow the guidance of Pip (a self-appointed raccoon caretaker of questionable reliability), and 
 restore a forgotten woodland settlement one dwelling at a time. Decorate your haven, tend your garden, and let the forest in.
@@ -7,7 +7,7 @@ restore a forgotten woodland settlement one dwelling at a time. Decorate your ha
 ---
 
 ## 🦝 About
-PocketHaven is part of our mission at **MorrowMoss Studios** to build cozy, enchanted experiences where curiosity and play intertwine.
+PocketHaven is part of our mission at **MorrowMoss Studios LTD** to build cozy, enchanted experiences where curiosity and play intertwine.
 
 Here, decoration isn't cosmetic. **It's discovery.**
 
@@ -33,7 +33,7 @@ For inquiries, collaborations, or offerings to the keepers of the woodland settl
 ---
 
 ## 🍄 Legal Disclaimer
-This software, including all code, assets, art, concepts, and related materials, is proprietary to MorrowMoss Studios and pertains 
+This software, including all code, assets, art, concepts, and related materials, is proprietary to MorrowMoss Studios LTD and pertains 
 specifically to the project **PocketHaven**.
 
 Unauthorized copying, modification, distribution, or commercial use of this software or any of its parts is strictly prohibited.
