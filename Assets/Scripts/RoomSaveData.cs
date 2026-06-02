@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 // Serializer agnostic save schema for a single room. Primitive types only
 // (no Vector3) so it survives JsonUtility, Newtonsoft, and Firestore the
-// same way, which matters if this ever syncs to the cloud like TriviaForge.
+// same way, so it can link with TriviaForge.
 
 [Serializable]
 public class PlacedItem
