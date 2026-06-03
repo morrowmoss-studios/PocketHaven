@@ -1,0 +1,105 @@
+# PocketHaven Asset Naming Conventions
+
+Rules for naming decoration `id`s and `displayName`s. Read this before authoring any new `DecorationData` asset.
+
+The one rule that matters most: **an `id` is permanent.** Once an item ships and players have save data referencing it, the `id` can never change without breaking their rooms. Choose it carefully and treat it as write-once.
+
+## Core principle
+
+- **`id`** is a permanent machine key. Lowercase, namespaced, never changes, encodes only what is invariant about the item.
+- **`displayName`** is a mutable human label, the player-facing name. Can be edited, rethemed, or localized at any time.
+- The two never depend on each other. You can rewrite a `displayName` freely without touching anything else.
+
+## The id format
+
+```
+pack.item-slug
+```
+
+Examples:
+
+| id | meaning |
+|----|---------|
+| `base.oak-stool` | Oak stool, free starter set |
+| `base.round-rug` | Round rug, free starter set |
+| `thornwood.thorn-armchair` | Thorn armchair, Thornwood pack |
+| `seelie.fae-lantern` | Fae lantern, Seelie pack |
+| `mossgrove.toadstool-lamp` | Toadstool lamp, Mossgrove pack |
+
+### id rules
+
+- All lowercase. No spaces, no capitals, no special characters.
+- A dot separates the pack from the item. Hyphens separate words inside the slug.
+- **Write-once.** Never rename an id after the item ships. To replace an item, ship a new id, do not edit the old one.
+- Must be unique across the entire catalog, forever. The pack prefix guarantees this.
+
+## What must never go in an id
+
+Anything that can change. Putting mutable info in an id means the id eventually lies.
+
+- No price.
+- No free-versus-paid flag. That lives in `isPremium`.
+- No category. That lives in `category`.
+- No color, pattern, or size. Those are variant indices, see below.
+
+An id encodes only the two things that are truly permanent: **which pack it came from** and **which item it is.**
+
+## packId conventions
+
+- Reserve **`base`** for the free starter set. Swap for `core` if you prefer, but pick one and stay with it.
+- Keep packIds short, lowercase, and meaningful: `thornwood`, `seelie`, `mossgrove`.
+- A packId, once used, is reserved forever. Log every one in the Pack Registry below.
+- For premium items, set `iapBundleId` to the packId. An IAP purchase then unlocks every item whose id starts with that pack prefix.
+
+## Slug conventions
+
+- Singular nouns: `oak-stool`, not `oak-stools`.
+- Descriptive, optionally style-qualified: `tall-bookshelf`, `round-rug`, `thorn-armchair`.
+- Lowercase, hyphen-separated, no abbreviations unless they are obvious.
+- Be consistent. If you use `lamp` once, do not use `light` for the same kind of object elsewhere.
+
+## Variants are not separate items
+
+Recolors and patterns are stored as an index on the placed instance, not as new catalog entries.
+
+- A recolor is a `colorIndex` on the placed item. `colorIndex = 0` is the base color.
+- A pattern (IAP) will be a `patternIndex`, added later.
+- A chair offered in 8 colors is **one** `id` with a color index, not 8 ids.
+
+This keeps the catalog from ballooning into thousands of near-duplicate entries.
+
+## displayName conventions
+
+- Title Case, friendly, in the fae aesthetic: "Oak Stool", "Thornwood Armchair", "Fae Lantern".
+- Fully decoupled from the id. Rename or retheme any time.
+- Localization-ready: because the id is stable, you can later swap `displayName` for a localization key keyed off the id, without touching any save data. Matters for global and Switch releases.
+
+## Store SKU mapping
+
+- The internal packId is your stable reference.
+- Each store (App Store, Google Play, Steam) wants its own product id format.
+- Map packId to each store's SKU in ONE place. Do not scatter store ids through the codebase.
+
+## Code rule
+
+In code, reference the `DecorationData` asset directly, never the id string. The secret-room trigger, for example, points at a `DecorationData` object, not the text `"base.oak-stool"`. The only place id strings should ever appear is save data, which leaves almost nothing to typo.
+
+## Adding a new item: checklist
+
+1. Pick the packId. New pack? Add it to the Pack Registry first.
+2. Write the id as `pack.item-slug`: lowercase, singular, hyphenated.
+3. Confirm the slug is consistent with existing items (same words for the same objects).
+4. Set `displayName` in friendly Title Case.
+5. Set `category`, `isPremium`, and `iapBundleId` (packId for premium, empty for base).
+6. Leave `footprint` and `supportsRecolor` at sensible defaults.
+7. Never touch the id again after the item ships.
+
+## Pack Registry
+
+Log every pack here as it is created, so packIds are never reused or collided.
+
+| packId | name | type | notes |
+|--------|------|------|-------|
+| `base` | Starter Set | Free | Ships with the game |
+| | | | |
+| | | | |
