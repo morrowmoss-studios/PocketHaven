@@ -1,40 +1,25 @@
 fileFormatVersion: 2
-guid: ec22c75b91f5f4a349588fbc0c6f6cd8
+guid: ddab793691f5649ff96e7578e61e2a22
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4968551693011305271
-    second: Clock_1_0
+      213: 109996981612535403
+    second: fern_planter_1_grey_0
   - first:
-      213: -4051907404238667481
-    second: Clock_1_1
+      213: -6915968598219284665
+    second: fern_planter_1_grey_1
   - first:
-      213: -4524961813638675937
-    second: Clock_1_2
+      213: 8967420549752065768
+    second: fern_planter_1_grey_2
   - first:
-      213: 2548427337739697358
-    second: Clock_1_3
+      213: 7180192817034348032
+    second: fern_planter_1_grey_3
   - first:
-      213: 5978821647946577281
-    second: Clock_1_4
+      213: 1024302435163700139
+    second: fern_planter_1_grey_4
   - first:
-      213: -5311894545806857721
-    second: Clock_1_5
-  - first:
-      213: -4410367142780131241
-    second: Clock_1_6
-  - first:
-      213: -433362565030979753
-    second: Clock_1_7
-  - first:
-      213: -205309924255216774
-    second: Clock_1_8
-  - first:
-      213: 7144686238211583872
-    second: Clock_1_9
-  - first:
-      213: -6518974767745984350
-    second: Clock_1_10
+      213: -6616526501356305594
+    second: fern_planter_1_grey_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -156,13 +141,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Clock_1_0
+      name: fern_planter_1_grey_0
       rect:
         serializedVersion: 2
-        x: 1215
-        y: 461
-        width: 391
-        height: 572
+        x: 1197
+        y: 460
+        width: 354
+        height: 584
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,19 +156,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 733ca16b077d3f440800000000000000
-      internalID: 4968551693011305271
+      spriteID: b6e51670ca9c68100800000000000000
+      internalID: 109996981612535403
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clock_1_1
+      name: fern_planter_1_grey_1
       rect:
         serializedVersion: 2
-        x: 1438
-        y: 1029
-        width: 36
+        x: 1330
+        y: 1034
+        width: 6
         height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -193,20 +178,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 721449b0fabb4c7c0800000000000000
-      internalID: -4051907404238667481
+      spriteID: 74f1269c33b8500a0800000000000000
+      internalID: -6915968598219284665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clock_1_2
+      name: fern_planter_1_grey_2
       rect:
         serializedVersion: 2
-        x: 1616
-        y: 927
-        width: 10
-        height: 29
+        x: 1336
+        y: 1027
+        width: 11
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f120cdb643b1431c0800000000000000
-      internalID: -4524961813638675937
+      spriteID: 8ee82838a7da27c70800000000000000
+      internalID: 8967420549752065768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clock_1_3
+      name: fern_planter_1_grey_3
       rect:
         serializedVersion: 2
-        x: 1589
-        y: 904
-        width: 6
-        height: 12
+        x: 1478
+        y: 1034
+        width: 16
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,20 +222,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ecc7ed95925dd5320800000000000000
-      internalID: 2548427337739697358
+      spriteID: 006c426235b25a360800000000000000
+      internalID: 7180192817034348032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clock_1_4
+      name: fern_planter_1_grey_4
       rect:
         serializedVersion: 2
-        x: 1603
+        x: 1190
         y: 763
-        width: 20
-        height: 56
+        width: 7
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,86 +244,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 18575459c9a09f250800000000000000
-      internalID: 5978821647946577281
+      spriteID: babff7643ad073e00800000000000000
+      internalID: 1024302435163700139
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clock_1_5
+      name: fern_planter_1_grey_5
       rect:
         serializedVersion: 2
-        x: 1613
-        y: 734
-        width: 6
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 70ae8d0ed0c5846b0800000000000000
-      internalID: -5311894545806857721
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clock_1_6
-      rect:
-        serializedVersion: 2
-        x: 1197
-        y: 724
-        width: 24
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7582985637a3bc2c0800000000000000
-      internalID: -4410367142780131241
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clock_1_7
-      rect:
-        serializedVersion: 2
-        x: 1185
-        y: 679
-        width: 29
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 757506c0b036cf9f0800000000000000
-      internalID: -433362565030979753
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clock_1_8
-      rect:
-        serializedVersion: 2
-        x: 1596
-        y: 643
+        x: 1192
+        y: 745
         width: 9
-        height: 49
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,52 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a7bc7ef26b7962df0800000000000000
-      internalID: -205309924255216774
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clock_1_9
-      rect:
-        serializedVersion: 2
-        x: 1180
-        y: 615
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 08f293c8746072360800000000000000
-      internalID: 7144686238211583872
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clock_1_10
-      rect:
-        serializedVersion: 2
-        x: 1204
-        y: 583
-        width: 14
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2a814ccdcf2f785a0800000000000000
-      internalID: -6518974767745984350
+      spriteID: 64303bfe3306d24a0800000000000000
+      internalID: -6616526501356305594
       vertices: []
       indices: 
       edges: []
@@ -411,17 +286,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Clock_1_0: 4968551693011305271
-      Clock_1_1: -4051907404238667481
-      Clock_1_10: -6518974767745984350
-      Clock_1_2: -4524961813638675937
-      Clock_1_3: 2548427337739697358
-      Clock_1_4: 5978821647946577281
-      Clock_1_5: -5311894545806857721
-      Clock_1_6: -4410367142780131241
-      Clock_1_7: -433362565030979753
-      Clock_1_8: -205309924255216774
-      Clock_1_9: 7144686238211583872
+      fern_planter_1_grey_0: 109996981612535403
+      fern_planter_1_grey_1: -6915968598219284665
+      fern_planter_1_grey_2: 8967420549752065768
+      fern_planter_1_grey_3: 7180192817034348032
+      fern_planter_1_grey_4: 1024302435163700139
+      fern_planter_1_grey_5: -6616526501356305594
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

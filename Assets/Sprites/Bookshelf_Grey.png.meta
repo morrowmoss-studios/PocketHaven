@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: c786ee681f1ca4845a82d4624641864c
+guid: fc318d2a50f914725956a80d501dfa1b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4144427403323119696
-    second: wardrobe_1_0
-  - first:
-      213: 1937207744097785407
-    second: wardrobe_1_1
-  - first:
-      213: -6584411605523221362
-    second: wardrobe_1_2
+      213: -2564687183834278412
+    second: Bookshelf_Grey_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -132,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wardrobe_1_0
+      name: Bookshelf_Grey_0
       rect:
         serializedVersion: 2
-        x: 1154
-        y: 482
-        width: 447
-        height: 534
+        x: 267
+        y: 415
+        width: 316
+        height: 420
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,52 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0581874e3c6f38930800000000000000
-      internalID: 4144427403323119696
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wardrobe_1_1
-      rect:
-        serializedVersion: 2
-        x: 1293
-        y: 484
-        width: 10
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f369513fd2852ea10800000000000000
-      internalID: 1937207744097785407
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wardrobe_1_2
-      rect:
-        serializedVersion: 2
-        x: 1301
-        y: 482
-        width: 13
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e8434ddc7887f94a0800000000000000
-      internalID: -6584411605523221362
+      spriteID: 4f59f873896686cd0800000000000000
+      internalID: -2564687183834278412
       vertices: []
       indices: 
       edges: []
@@ -211,9 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      wardrobe_1_0: 4144427403323119696
-      wardrobe_1_1: 1937207744097785407
-      wardrobe_1_2: -6584411605523221362
+      Bookshelf_Grey_0: -2564687183834278412
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

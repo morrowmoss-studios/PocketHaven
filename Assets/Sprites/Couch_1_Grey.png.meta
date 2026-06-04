@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 1f019f505ff6645c08df49459c004f36
+guid: cde4f5aadf2684781abdea4209605c33
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -92174510085436387
-    second: fern_planter_2_0
+      213: -3649724148103341879
+    second: Couch_1_Grey_0
+  - first:
+      213: 7260977557946223128
+    second: Couch_1_Grey_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fern_planter_2_0
+      name: Couch_1_Grey_0
       rect:
         serializedVersion: 2
-        x: 1197
-        y: 575
-        width: 350
-        height: 344
+        x: 239
+        y: 453
+        width: 372
+        height: 353
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +144,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d1c030d75c788bef0800000000000000
-      internalID: -92174510085436387
+      spriteID: 9c892207933995dc0800000000000000
+      internalID: -3649724148103341879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Couch_1_Grey_1
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 452
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ac77f5e9c24c460800000000000000
+      internalID: 7260977557946223128
       vertices: []
       indices: 
       edges: []
@@ -161,7 +186,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      fern_planter_2_0: -92174510085436387
+      Couch_1_Grey_0: -3649724148103341879
+      Couch_1_Grey_1: 7260977557946223128
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

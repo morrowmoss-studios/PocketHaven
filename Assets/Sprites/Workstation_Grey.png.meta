@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: a5822ef3bfab2461db1d60136cc44bdd
+guid: f4779ca6922b1412ea510bea4fe52a5b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -498360555685437515
-    second: Fireplace_2_0
-  - first:
-      213: -5765064773665286182
-    second: Fireplace_2_1
+      213: -6457750485073074808
+    second: Workstation_Grey_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -129,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fireplace_2_0
+      name: Workstation_Grey_0
       rect:
         serializedVersion: 2
-        x: 920
-        y: 460
-        width: 917
-        height: 576
+        x: 55
+        y: 438
+        width: 727
+        height: 391
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,30 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5bf9d4c07b77519f0800000000000000
-      internalID: -498360555685437515
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fireplace_2_1
-      rect:
-        serializedVersion: 2
-        x: 1550
-        y: 460
-        width: 22
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ad7109a02206effa0800000000000000
-      internalID: -5765064773665286182
+      spriteID: 885ec1106267166a0800000000000000
+      internalID: -6457750485073074808
       vertices: []
       indices: 
       edges: []
@@ -186,8 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Fireplace_2_0: -498360555685437515
-      Fireplace_2_1: -5765064773665286182
+      Workstation_Grey_0: -6457750485073074808
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

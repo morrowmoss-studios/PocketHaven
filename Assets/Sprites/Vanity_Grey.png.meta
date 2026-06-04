@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: 2930603188c3945c18f8f4b2e16f1596
+guid: 8b5fbee12648142f6b6db4a967e39d75
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9054222632572798698
-    second: pet_bed_1_0
+      213: -3424162157860205667
+    second: Vanity_Grey_0
   - first:
-      213: -7446735021756895728
-    second: pet_bed_1_1
+      213: -3940121674117121565
+    second: Vanity_Grey_1
   - first:
-      213: 669775736753878606
-    second: pet_bed_1_2
+      213: -2356801107153809599
+    second: Vanity_Grey_2
   - first:
-      213: 5782109371234552953
-    second: pet_bed_1_3
+      213: 5815413798555282318
+    second: Vanity_Grey_3
   - first:
-      213: 7318600717944404268
-    second: pet_bed_1_4
+      213: -4562801972974655120
+    second: Vanity_Grey_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -138,13 +138,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pet_bed_1_0
+      name: Vanity_Grey_0
       rect:
         serializedVersion: 2
-        x: 1074
-        y: 493
-        width: 596
-        height: 470
+        x: 347
+        y: 828
+        width: 16
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ae6cdc3538f07ad70800000000000000
-      internalID: 9054222632572798698
+      spriteID: d9b486fc8aeea70d0800000000000000
+      internalID: -3424162157860205667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pet_bed_1_1
+      name: Vanity_Grey_1
       rect:
         serializedVersion: 2
-        x: 1258
-        y: 932
-        width: 66
-        height: 43
+        x: 242
+        y: 432
+        width: 347
+        height: 392
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,20 +175,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 01e28b3c3f1e7a890800000000000000
-      internalID: -7446735021756895728
+      spriteID: 3e97e6a8630e159c0800000000000000
+      internalID: -3940121674117121565
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pet_bed_1_2
+      name: Vanity_Grey_2
       rect:
         serializedVersion: 2
-        x: 1098
-        y: 803
-        width: 13
-        height: 16
+        x: 251
+        y: 818
+        width: 9
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,20 +197,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e46f364eb758b4900800000000000000
-      internalID: 669775736753878606
+      spriteID: 14f89d141e5fa4fd0800000000000000
+      internalID: -2356801107153809599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pet_bed_1_3
+      name: Vanity_Grey_3
       rect:
         serializedVersion: 2
-        x: 1104
-        y: 644
-        width: 14
-        height: 10
+        x: 570
+        y: 680
+        width: 7
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,20 +219,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 97c84e496dd2e3050800000000000000
-      internalID: 5782109371234552953
+      spriteID: e8beac4d90084b050800000000000000
+      internalID: 5815413798555282318
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pet_bed_1_4
+      name: Vanity_Grey_4
       rect:
         serializedVersion: 2
-        x: 1423
-        y: 494
-        width: 61
-        height: 10
+        x: 569
+        y: 511
+        width: 6
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,8 +241,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c29befdc394e09560800000000000000
-      internalID: 7318600717944404268
+      spriteID: 079e464c7cbada0c0800000000000000
+      internalID: -4562801972974655120
       vertices: []
       indices: 
       edges: []
@@ -261,11 +261,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      pet_bed_1_0: 9054222632572798698
-      pet_bed_1_1: -7446735021756895728
-      pet_bed_1_2: 669775736753878606
-      pet_bed_1_3: 5782109371234552953
-      pet_bed_1_4: 7318600717944404268
+      Vanity_Grey_0: -3424162157860205667
+      Vanity_Grey_1: -3940121674117121565
+      Vanity_Grey_2: -2356801107153809599
+      Vanity_Grey_3: 5815413798555282318
+      Vanity_Grey_4: -4562801972974655120
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,28 +1,13 @@
 fileFormatVersion: 2
-guid: 60e895773a88e4828886773a5f4d2288
+guid: 80673e9bec9ba4076b7e7d6b8befe2e3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3797754633548425333
-    second: wysteria_bed_0
+      213: -4846183336855300261
+    second: Table_Grey_0
   - first:
-      213: -1076667997969591002
-    second: wysteria_bed_1
-  - first:
-      213: 4296386979738903051
-    second: wysteria_bed_2
-  - first:
-      213: -7676762937320030150
-    second: wysteria_bed_3
-  - first:
-      213: -229536812624683156
-    second: wysteria_bed_4
-  - first:
-      213: -6611791755379909806
-    second: wysteria_bed_5
-  - first:
-      213: 779462981593888137
-    second: wysteria_bed_6
+      213: -1606905817556675182
+    second: Table_Grey_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -144,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wysteria_bed_0
+      name: Table_Grey_0
       rect:
         serializedVersion: 2
-        x: 826
-        y: 218
-        width: 1100
-        height: 1067
+        x: 170
+        y: 465
+        width: 483
+        height: 334
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,20 +144,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5786fb4c7b554b430800000000000000
-      internalID: 3797754633548425333
+      spriteID: b57925a6ee5eebcb0800000000000000
+      internalID: -4846183336855300261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wysteria_bed_1
+      name: Table_Grey_1
       rect:
         serializedVersion: 2
-        x: 1427
-        y: 1282
-        width: 6
-        height: 11
+        x: 291
+        y: 464
+        width: 88
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,118 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 625ddf70928ee01f0800000000000000
-      internalID: -1076667997969591002
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wysteria_bed_2
-      rect:
-        serializedVersion: 2
-        x: 1904
-        y: 974
-        width: 9
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b0263f0e135df9b30800000000000000
-      internalID: 4296386979738903051
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wysteria_bed_3
-      rect:
-        serializedVersion: 2
-        x: 1906
-        y: 934
-        width: 11
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a30c72028c8a67590800000000000000
-      internalID: -7676762937320030150
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wysteria_bed_4
-      rect:
-        serializedVersion: 2
-        x: 827
-        y: 782
-        width: 13
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c6f51ac2c7580dcf0800000000000000
-      internalID: -229536812624683156
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wysteria_bed_5
-      rect:
-        serializedVersion: 2
-        x: 826
-        y: 747
-        width: 7
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 25b59b3ed623e34a0800000000000000
-      internalID: -6611791755379909806
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wysteria_bed_6
-      rect:
-        serializedVersion: 2
-        x: 1903
-        y: 570
-        width: 9
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9857875b37531da00800000000000000
-      internalID: 779462981593888137
+      spriteID: 29596053caf13b9e0800000000000000
+      internalID: -1606905817556675182
       vertices: []
       indices: 
       edges: []
@@ -311,13 +186,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      wysteria_bed_0: 3797754633548425333
-      wysteria_bed_1: -1076667997969591002
-      wysteria_bed_2: 4296386979738903051
-      wysteria_bed_3: -7676762937320030150
-      wysteria_bed_4: -229536812624683156
-      wysteria_bed_5: -6611791755379909806
-      wysteria_bed_6: 779462981593888137
+      Table_Grey_0: -4846183336855300261
+      Table_Grey_1: -1606905817556675182
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
