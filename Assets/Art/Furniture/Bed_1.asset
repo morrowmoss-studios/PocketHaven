@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65b77d3c6669c4186b5c1d45b6191646, type: 3}
+  m_Name: Bed_1
+  m_EditorClassIdentifier: Assembly-CSharp::DecorationData
+  id: base.leaf-bed
+  displayName: Leaf Bed
+  description: 
+  sprite: {fileID: -5351313138583509630, guid: d4c8753eb81d44c43afb98446ef7fc58, type: 3}
+  category: 0
+  layer: 0
+  footprint: {x: 1, y: 1}
+  supportsRecolor: 1
+  isPremium: 0
+  iapBundleId: 
