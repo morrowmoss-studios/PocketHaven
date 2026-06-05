@@ -22,6 +22,9 @@ public class PlacementController : MonoBehaviour
     // The item being dragged before it gets dropped.
     private GameObject heldItem;
     private SpriteRenderer heldRenderer;
+    
+    // Drag te placed object 
+    public Transform placedParent;
 
     private void Awake()
     {
@@ -70,6 +73,10 @@ public class PlacementController : MonoBehaviour
         }
 
         heldItem = new GameObject(testDecoration.displayName);
+        if (placedParent != null)
+        {
+            heldItem.transform.SetParent(placedParent, true);
+        }
         heldRenderer = heldItem.AddComponent<SpriteRenderer>();
         heldRenderer.sprite = testDecoration.sprite;
 
