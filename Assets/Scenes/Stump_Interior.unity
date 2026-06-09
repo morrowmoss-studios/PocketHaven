@@ -128,6 +128,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 196356722}
+  - component: {fileID: 196356723}
   m_Layer: 0
   m_Name: Placed
   m_TagString: Untagged
@@ -150,6 +151,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1852607852}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &196356723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196356721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d13df3f51c0c14ec6aaa0d7e5b1fca51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RoomSaveSystem
+  placedParent: {fileID: 196356722}
+  library: {fileID: 11400000, guid: a1a2fcd5fa5f841159b0691abee96252, type: 2}
+  roomId: stump_living_room
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -319,7 +335,7 @@ MonoBehaviour:
   testDecoration: {fileID: 11400000, guid: b5a594a21651d4fafa9fdd7be36ea12f, type: 2}
   cellSize: 0.5
   sceneCamera: {fileID: 0}
-  placedParent: {fileID: 0}
+  placedParent: {fileID: 196356722}
 --- !u!4 &558275116
 Transform:
   m_ObjectHideFlags: 0

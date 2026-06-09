@@ -73,15 +73,22 @@ public class PlacementController : MonoBehaviour
         }
 
         heldItem = new GameObject(testDecoration.displayName);
+
         if (placedParent != null)
         {
             heldItem.transform.SetParent(placedParent, true);
         }
+
         heldRenderer = heldItem.AddComponent<SpriteRenderer>();
         heldRenderer.sprite = testDecoration.sprite;
 
         // Keep the dragging item on top so it stays visible while moving.
         heldRenderer.sortingOrder = 9999;
+
+        // Tag it so the save system knows what this item is.
+        PlacedDecoration placed = heldItem.AddComponent<PlacedDecoration>();
+        placed.data = testDecoration;
+
         heldItem.transform.position = worldPos;
     }
 

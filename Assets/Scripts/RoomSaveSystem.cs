@@ -1,3 +1,4 @@
+using System;
 using System.IO;
 using UnityEngine;
 
@@ -59,5 +60,10 @@ public class RoomSaveSystem : MonoBehaviour
             placed.facingIndex = item.facingIndex;
             placed.colorIndex = item.colorIndex;
         }
+    }
+
+    private void Start()
+    {
+        Load();
     }
 }
