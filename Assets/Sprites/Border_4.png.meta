@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: b79c8836fba54409290ce4c5aa58c6e3
+guid: 7d0ffa3f9fddc403b8befd4a4ac46abd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 441887886332657987
-    second: TS_Living_Room_0
+      213: 6719717108301732581
+    second: Border_4_0
+  - first:
+      213: 4517188726548385025
+    second: Border_4_1
+  - first:
+      213: -507506255897970285
+    second: Border_4_2
+  - first:
+      213: 9051626846978730226
+    second: Border_4_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TS_Living_Room_0
+      name: Border_4_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 3172
-        height: 1344
+        y: 2
+        width: 2400
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +150,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 341086ff0b6e12600800000000000000
-      internalID: 441887886332657987
+      spriteID: 5ea907f7b1b314d50800000000000000
+      internalID: 6719717108301732581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Border_4_1
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 222
+        width: 186
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10dc055b63740be30800000000000000
+      internalID: 4517188726548385025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Border_4_2
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 228
+        width: 100
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 399b9e7cfb9f4f8f0800000000000000
+      internalID: -507506255897970285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Border_4_3
+      rect:
+        serializedVersion: 2
+        x: 1974
+        y: 230
+        width: 144
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f86e85e8a6dd9d70800000000000000
+      internalID: 9051626846978730226
       vertices: []
       indices: 
       edges: []
@@ -161,7 +236,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      TS_Living_Room_0: 441887886332657987
+      Border_4_0: 6719717108301732581
+      Border_4_1: 4517188726548385025
+      Border_4_2: -507506255897970285
+      Border_4_3: 9051626846978730226
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
