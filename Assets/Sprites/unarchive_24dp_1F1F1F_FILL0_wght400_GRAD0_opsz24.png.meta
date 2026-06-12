@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4f25b96d7c63e41e7b91dbd450a0d41e
+guid: 7d2b8698099474710b60678c74fe5caa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9041164862496831005
-    second: Scale_Button_0
+      213: 7511547885019586765
+    second: unarchive_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Scale_Button_0
+      name: unarchive_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24_0
       rect:
         serializedVersion: 2
-        x: 184
-        y: 72
-        width: 128
-        height: 108
+        x: 2
+        y: 2
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3e9022fa574578280800000000000000
-      internalID: -9041164862496831005
+      spriteID: dc0ede7e0016e3860800000000000000
+      internalID: 7511547885019586765
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Scale_Button_0: -9041164862496831005
+      unarchive_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24_0: 7511547885019586765
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
