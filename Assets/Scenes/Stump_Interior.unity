@@ -966,15 +966,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Library
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: db3506d81e5504facba7c4a823e885fb, type: 2}
-  m_sharedMaterial: {fileID: -4626560219206530625, guid: db3506d81e5504facba7c4a823e885fb, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0951089a57a9d49f4a39ef0882878ec8, type: 2}
+  m_sharedMaterial: {fileID: -4626560219206530625, guid: 0951089a57a9d49f4a39ef0882878ec8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4282465794
+  m_fontColor: {r: 0.007843137, g: 0.24268891, b: 0.25490198, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
